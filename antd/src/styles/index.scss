@@ -1,0 +1,13 @@
+// 在scss中 使用下划线_命名的scss文件只能用来导入 不能用来直接编译
+// 且导入时需要去掉下划线
+
+// config
+@import 'variables';
+
+// layout
+@import 'reboot';
+
+@import 'mixin';
+
+// button 样式
+@import '../components/Button/style'
