@@ -9,5 +9,16 @@
 
 @import 'mixin';
 
+@import '../styles/animation';
+
 // button 样式
-@import '../components/Button/style'
+@import '../components/Button/style';
+
+// menu 样式
+@import '../components/Menu/style';
+
+// icon 样式
+@import '../components/Icon/style';
+
+// tabs 样式
+@import '../components/Tabs/style'
