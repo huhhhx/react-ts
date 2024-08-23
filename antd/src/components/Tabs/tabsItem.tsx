@@ -5,7 +5,7 @@ import { TabsContext } from "./tabs";
 
 export interface TabsItemProps {
     index ?: number
-    label : string
+    label: string | React.ReactElement
     children ?: React.ReactNode,
     disabled ?: boolean
 }

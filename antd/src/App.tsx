@@ -23,7 +23,7 @@ function App() {
       <header className="App-header">
         <h4>tabs 组件</h4>
         <Tabs defaultIndex={1}>
-          <TabsItem label='选项卡1'>内容1</TabsItem>
+          <TabsItem label={<Button>我是自定义</Button>}>内容1</TabsItem>
           <TabsItem label='选项卡2'>内容2</TabsItem>
           <TabsItem label='选项卡3' disabled>内容3</TabsItem>
         </Tabs>
