@@ -2,23 +2,26 @@
 // 且导入时需要去掉下划线
 
 // config
-@import 'variables';
+@import "variables";
 
 // layout
-@import 'reboot';
+@import "reboot";
 
-@import 'mixin';
+@import "mixin";
 
-@import '../styles/animation';
+@import "../styles/animation";
 
 // button 样式
-@import '../components/Button/style';
+@import "../components/Button/style";
 
 // menu 样式
-@import '../components/Menu/style';
+@import "../components/Menu/style";
 
 // icon 样式
-@import '../components/Icon/style';
+@import "../components/Icon/style";
 
 // tabs 样式
-@import '../components/Tabs/style'
+@import "../components/Tabs/style";
+
+// Input 样式
+@import "../components/Input/style";
